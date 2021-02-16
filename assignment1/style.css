@@ -256,6 +256,38 @@ body {
     height:50px;
   }
 
+   
+ .pricing1 {
+  text-align: center;
+}
+
+
+.pricing {
+  display: flex ;
+  justify-content: space-around;
+  margin: 50px 300px 00px 200px;
+  border: 200px 300px 100px 100px;
+  padding: 20px 30px 00px 70px;
+  border-radius: 20px;
+}
+.order {
+ background-color: brown;
+ height: 30px;
+ width: 150px;
+ border-radius: 20px;
+}
+.free{
+ background-color: cornsilk;
+
+}
+.standerd{
+ background-color: cyan;
+}
+.business{
+ background-color: darkmagenta;
+}
+
+
 
 
   .contact {
@@ -278,19 +310,17 @@ body {
   padding:0px 150px 00px 00px;
   
 }
-
-
 .contact-form {
   background-color: wheat;
   position: absolute;
-  top: 4000px;
+  top: 4550px;
   right: 900px;
   width: 200px;
   height: 200px;
   border: 3px solid ;
   display: flex;
   flex-direction: column;
-  margin: 100px 10px 100px 10px;
+  margin: 10px 10px 10px 10px;
   width: 30%;
   padding:10px 10px 50px 10px;
   border-radius: 10px;
@@ -314,13 +344,12 @@ body {
   bottom: 1px
 }
 
-. social-media {
-background-color: green;
-color: green;
-margin-right: 3000px;
-text-decoration: none;
-
-}
+.social-media {
+  color: #EF2779;
+  margin-right: 0px;
+  text-decoration: none;
+  
+  }
 
 
 
