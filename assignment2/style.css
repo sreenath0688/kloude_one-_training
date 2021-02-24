@@ -1,0 +1,97 @@
+  
+:root {
+  --title-bg:rgba(231, 227, 232, 0.973);
+  --border-colr:red;
+}
+  body {
+    margin:0px;
+    padding:0px;
+  }
+  header {
+    background-color: var(--title-bg);
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+   h2 {
+    margin-left: 300px;
+    color:#2d2e33;
+    margin-bottom: 40px;
+  }
+  
+  nav {
+    background:black;
+    background: linear-gradient(270deg, rgba(35,41,51,1) 80%, rgba(112,117,138,) 100%);
+    display: flex;
+    flex-direction: column;
+    float: left;
+    height: 120vh;
+    
+  }
+   nav button {
+    font-size: 30px;
+      border: none;
+      margin: 40px auto;
+      background: rgb(35,41,51);
+      background: linear-gradient(270deg, rgba(35,41,51,1) 80%, rgba(112,117,138,) 100%);
+      display: flex;
+   }
+   
+  .shrink-nav p {
+    width:100px;
+    display: none;
+  }
+  #nav button:hover {
+    background-color: #2d2e33;;
+  }
+   button i {
+    background-blend-mode: overlay;;
+    color:white;
+    font-size: 30px;
+    margin:10px 20px 10px 10px;
+   }
+    button p {
+           position: relative;
+           margin-right: 20px;
+           font-size: 20px;
+           color: white;
+    }
+    .container {
+      display: flex;
+      flex-direction:row;
+      width:20px;
+    }
+    .mail {
+      display: flex;
+      flex-direction: column;
+      border: 5px solid var(--border-colr);
+      border-radius: 25px;
+      float: left;
+      width: 600px;
+      box-sizing: border-box;
+      margin:50px 30px 0px 30px;
+      position: relative;
+      height: 130px;
+    }
+    .mail{
+      border-bottom: 5px solid var(--border-colr);
+      background-color:var(--title-bg) ;
+      font-family: inherit;
+      
+    }
+    .mail {
+      flex: 3;
+    }
+    .about{
+      border: 5px solid var(--border-colr);
+      border-radius: 25px;
+      width:600px;
+      margin:50px 10px 10px 10px;
+      background-color: var(--title-bg);
+      float: right;
+    }
+    .about.title {
+      border-bottom: 5px solid var(--border-colr);
+    }
+  
+  
+  

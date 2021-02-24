@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+
+    <style>
+        .contact {
+            padding: 60px 0px 0px 70px;
+            margin: 40px;
+            font-size: large;
+            background-color: cornsilk;
+            
+
+        }
+        .btn {
+         background-color: blue;
+         width: 100px;
+         height: 30px;
+         border-radius: 10px;
+        }
+
+    </style>
+    <script type="text/javascript">
+
+    function validate()
+    {
+        var username = document.getElementById("user");
+        var email = document.getElementById("mail");
+        var fruit = document.getElementById("fruit");
+        var message = document.getElementById("mes");
+        if( username.value =="" ||email.value =="" ||fruit.value ==""||message.value ==""||)
+        {
+            alert("No blank value allowed");
+        }
+        else
+        {
+
+        }
+
+    }
+    </script>
+    
+   
+</head>
+
+<div class="contact">
+        
+<form action="">
+    <tr> full name:</tr><br>
+    <input id="user" placeholder="username" type="text" size="40px" width="30px"><br>
+    <tr>email:</tr><br>
+    <input id="mail" placeholder="email" type="text" size="40px" width="30px"><br>
+    <tr>select fruit:</tr><br>
+    <input id="fruit" placeholder="friut" type="text" size="40px" width="30px"><br>
+    <tr>message:</tr><br>
+    <input id="mes" placeholder="message" type="text" size="40px" width="300px"><br> <br>
+  
+   <button class="btn">submit</button>
+</form>
+   
+</div>
+</body>
+</html>
