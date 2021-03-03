@@ -93,5 +93,42 @@
       border-bottom: 5px solid var(--border-colr);
     }
   
-  
-  
+    .user-container {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      border:1px solid var(--border-colr);
+      width:400px ;
+      height: 100vh;
+      margin: 0px auto;
+      font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+  .user-container .user-wallpaper img {
+      width: 400px;
+      height: 300px;
+    }
+  .user-details .user-img img {
+      width: 100px;
+      height: 100px;
+      margin-top: 30px;
+    }
+  .user-details .user-data {
+    color: #2d2e33;
+    }
+  .user-data :nth-child(2) {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 60px;
+  }
+  .user-details .user-data h2 {
+    margin:auto;
+  }
+  .map-details {
+    background-image:url("map.png");
+    background-color: lightgray;
+    background-blend-mode: multiply;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+  }
